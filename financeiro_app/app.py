@@ -17,11 +17,11 @@ import streamlit as st
 from streamlit_autorefresh import st_autorefresh
 
 import config
-from serviços import finance_service
-from serviços.usuarios_service import listar_usuarios
-from utilitários.calculations import mes_atual_str
+from services import finance_service
+from services.usuarios_service import listar_usuarios
+from utils.calculations import mes_atual_str
 
-from módulos import calendario, captura, configuracoes, multiusuario, precificacao
+from modules import calendario, captura, configuracoes, multiusuario, precificacao
 
 st.set_page_config(
     page_title="Financeiro Compartilhado",
